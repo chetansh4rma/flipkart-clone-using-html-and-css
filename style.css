@@ -1,0 +1,280 @@
+*{
+    font-family: arial;
+    color: white;
+    border: border-box;
+}
+#navbar{
+    height: 56px;
+    width: 100%;
+    background-color: #007ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#logo{
+    height: 20px;
+    width: 75px;
+    background-image: url(flipkart\ logo.png);
+    background-size: cover;
+    font-style: italic;
+    display: flex;
+    
+}
+img{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    margin-left: 3px;
+    margin-top: 17px;
+}
+#search{
+display: flex;
+align-items: center;
+}
+#search-bar{
+    height: 42px;
+    width :440px;
+    /* background-color: black; */
+    display: flex;
+    background-color: #ffffff;
+    color: black;
+    align-items: center;
+
+}
+.search-button{
+    height: 36px;
+    width: 400px;
+    border: none;
+}
+.mag-button{
+    height: 36px;
+    width: 60px;
+}
+i{
+    color: #007ddd;
+}
+
+#login{
+    height: 30px;
+    width: 120px;
+    background-color: #ffffff;
+    color: #007ddd;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#become-a-seller{
+    font-size: 16px;
+    color:#ffffff;
+}
+#more{
+    font-size: 16px;
+    color:#ffffff;
+}
+#navigation-panel{
+    height:100px;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    color: #212121;
+    border-bottom: 0.1px solid gray;
+}
+#grocery{
+    height: 64px;
+    width: 64px;
+    background-image:url(https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100);
+    display: flex;
+    background-size:cover ;
+    align-items: end;
+    text-align: end;
+    display: block;
+}
+#grocery  h5{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top:55px ;
+color: #212121;
+}
+#mobiles{
+    height: 64px;
+    width: 64px;
+    background-image:url(https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100);
+    display: flex;
+    background-size:cover ;
+    align-items: end;
+    text-align: end;
+    display: block;
+    
+}
+#mobiles h5{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top:55px ;
+color: #212121;
+}
+#Fashion{
+    height: 64px;
+    width: 64px;
+    background-image:url(https://rukminim1.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100);
+    display: flex;
+    background-size:cover ;
+    align-items: end;
+    text-align: end;
+    display: block;
+}
+#Fashion h5{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top:65px ;
+color: #212121;
+}
+#Electronics{
+    height: 64px;
+    width: 64px;
+    background-image:url(https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100);
+    display: flex;
+    background-size:cover ;
+    align-items: end;
+    text-align: end;
+    display: block;
+    
+}
+#Electronics h5{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top:65px ;
+color: #212121;
+}
+#HomeandFurniture{
+    height: 64px;
+    width: 64px;
+    background-image:url(https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100);
+    display: flex;
+    background-size:cover ;
+    align-items: end;
+    text-align: end;
+    display: block;
+}
+#HomeandFurniture h5{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top:65px ;
+color: #212121;
+}
+#Appliances{
+    height: 64px;
+    width: 64px;
+    background-image:url(https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100);
+    display: flex;
+    background-size:cover ;
+    align-items: end;
+    text-align: end;
+    display: block;
+}
+#Appliances h5{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top:65px ;
+color: #212121;
+}
+#Travel{
+    height: 64px;
+    width: 64px;
+    background-image:url(https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100);
+    display: flex;
+    background-size:cover ;
+    align-items: end;
+    text-align: end;
+    display: block;
+}
+#Travel h5{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top:65px ;
+color: #212121;
+}
+#Topoffers{
+    height: 64px;
+    width: 64px;
+    background-image:url(https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100);
+    display: flex;
+    background-size:cover ;
+    align-items: end;
+    text-align: end;
+    display: block;
+}
+#Topoffers h5{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top:65px ;
+color: #212121;
+}
+#BeautyToysMore{
+    height: 64px;
+    width: 80px;
+    background-image:url(https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100);
+    display: flex;
+    background-size:cover ;
+    align-items: end;
+    text-align: end;
+    display: block;
+}
+#BeautyToysMore h5{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top:65px ;
+color: #212121;
+}
+#TwoWheelers{
+    height: 64px;
+    width: 64px;
+    background-image:url(https://rukminim1.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100);
+    display: flex;
+    background-size:cover ;
+    align-items: end;
+    text-align: end;
+    display: block;
+}
+#TwoWheelers h5{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top:65px ;
+color: #212121;
+}
+#main{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    background-image: url(Screenshot\ 2023-07-03\ 133016.png);
+    background-size: cover;
+
+}
+#foot{
+height: 300px;
+width: 100%;
+background-color: #172337;
+align-items: center;
+padding-top: 20px;
+padding-left: 40px;
+}
+#foot a{
+font-size: 12px;
+display: block;
+}
+#foot h6{
+color: #9e9e9e;
+position:relative;
+margin-top: 10px;
+}
